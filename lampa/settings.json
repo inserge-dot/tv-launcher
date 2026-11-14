@@ -1,12 +1,15 @@
 {
-  "revision": 4,
+  "revision": 5,
   "storage": {
     "parser_use": true,
     "parser_torrent_type": "jackett",
     "torrserver_url": "127.0.0.1:8090",
     "torrserver_use_link": "one",
     "internal_torrclient": true,
-    "torrserver_savedb": true
+    "torrserver_savedb": true,
+    "player": "android",
+    "player_iptv": "android",
+    "player_torrent": "android"
   },
   "plugins": {
     "add": [
@@ -14,6 +17,71 @@
         "url": "https://bylampa.github.io/jackett.js",
         "name": "Переключение Парсеров",
         "author": "@AndreyURL54"
+      },
+      {
+        "url": "https://bylampa.github.io/logo_title.js",
+        "name": "Лого Вместо Названия",
+        "author": "@bylampa"
+      },
+      {
+        "url": "https://bylampa.github.io/remove_ts.js",
+        "name": "Remove TS",
+        "author": "@oniontorproject"
+      },
+      {
+        "url": "https://bylampa.github.io/rating.js",
+        "name": "Рейтинг КиноПоиск и IMDB",
+        "author": "@t_anton"
+      },
+      {
+        "url": "https://bylampa.github.io/torrents_style.js",
+        "name": "Torrents Style",
+        "author": "@bylampa"
+      },
+      {
+        "url": "https://bylampa.github.io/tracks.js",
+        "name": "Tracks",
+        "author": "@lampa"
+      },
+      {
+        "url": "https://mragasferon.github.io/lampa-picker/picker.js",
+        "name": "Picker",
+        "author": "@MrAgasferon"
+      },
+      {
+        "url": "https://bylampa.github.io/quality.js",
+        "name": "Quality",
+        "author": "@bylampa"
+      },
+      {
+        "url": "https://bylampa.github.io/interface.js",
+        "name": "Стильный Интерфейс",
+        "author": "@lampa"
+      },
+      {
+        "url": "https://plugin.rootu.top/ts-preload.js",
+        "name": "Визуализация Загрузки TS",
+        "author": "@rootu"
+      },
+      {
+        "url": "https://nb557.github.io/plugins/not_mobile.js",
+        "name": "Выключение Тача",
+        "author": "@t_anton"
+      },
+      {
+        "url": "https://nemiroff.github.io/lampa/select_weapon.js",
+        "name": "Тип Управления",
+        "author": "@nemiroff"
+      },
+      {
+        "url": "https://lampame.github.io/main/torrentmanager/torrentmanager.js",
+        "name": "Закачка Торрентов",
+        "author": "@feliks"
+      },
+      {
+        "url": "https://bylampa.github.io/online_mod.js",
+        "name": "Online Mod",
+        "author": "@t_anton"
       }
     ],
     "remove": [
