@@ -1,4 +1,27 @@
 {
-  "revision": 0,
-  "storage": {}
+  "revision": 4,
+  "storage": {
+    "parser_use": true,
+    "parser_torrent_type": "jackett",
+    "torrserver_url": "127.0.0.1:8090",
+    "torrserver_use_link": "one",
+    "internal_torrclient": true,
+    "torrserver_savedb": true
+  },
+  "plugins": {
+    "add": [
+      {
+        "url": "https://bylampa.github.io/jackett.js",
+        "name": "Переключение Парсеров",
+        "author": "@AndreyURL54"
+      }
+    ],
+    "remove": [
+      "https://bylampa.github.io/tmdb-proxy.js"
+    ]
+  },
+  "tmdb": {
+    "api": "https://apitmdb.cub.best/3/",
+    "image": "https://imagetmdb.cub.best/"
+  }
 }
