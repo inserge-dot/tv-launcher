@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 6,
   "storage": {
     "parser_use": true,
     "parser_torrent_type": "jackett",
@@ -9,7 +9,9 @@
     "torrserver_savedb": true,
     "player": "android",
     "player_iptv": "android",
-    "player_torrent": "android"
+    "player_torrent": "android",
+    "navigation_type": "controll",
+    "weapon_choised": "true"
   },
   "plugins": {
     "add": [
