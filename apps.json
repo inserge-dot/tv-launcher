@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {"package": "watch.kino", "title": "kino.watch", "versionCode": 169, "versionName": "2.24", "url": "https://github.com/inserge-dot/tv-launcher/releases/download/apps/watch.kino.apk", "size": 12495529, "install": true},
+    {"package": "top.rootu.bylumpa", "title": "bylampa", "versionCode": 581, "versionName": "1.13.5", "url": "https://github.com/inserge-dot/tv-launcher/releases/download/apps/top.rootu.bylumpa.apk", "size": 11897554, "install": true},
+    {"package": "ru.yourok.num", "title": "NUM", "versionCode": 151, "versionName": "1.0.151", "url": "https://github.com/inserge-dot/tv-launcher/releases/download/apps/ru.yourok.num.apk", "size": 12509633, "install": true},
+    {"package": "io.gh.reisxd.tizentube.cobalt", "title": "TizenTube", "versionCode": 203, "versionName": "2.0.3", "url": "https://github.com/inserge-dot/tv-launcher/releases/download/apps/io.gh.reisxd.tizentube.cobalt.apk", "size": 80570825, "install": true},
+    {"package": "ru.yourok.torrserve", "title": "TorrServe", "versionCode": 143, "versionName": "MatriX.143", "url": "https://github.com/inserge-dot/tv-launcher/releases/download/apps/ru.yourok.torrserve.apk", "size": 11955914, "install": true}
+  ]
+}
